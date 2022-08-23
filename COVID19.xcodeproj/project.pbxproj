@@ -67,17 +67,25 @@
 		148245E528A4E0670062CEDA /* COVID19 */ = {
 			isa = PBXGroup;
 			children = (
+				14DB062828B4F40300691116 /* ViewController */,
 				148245E628A4E0670062CEDA /* AppDelegate.swift */,
 				148245E828A4E0670062CEDA /* SceneDelegate.swift */,
-				148245EA28A4E0670062CEDA /* ViewController.swift */,
-				1450A72828A4F6C600D053A1 /* CityCovidOverview.swift */,
 				148245EC28A4E0670062CEDA /* Main.storyboard */,
-				1450A72628A4F18D00D053A1 /* CovidDetailViewController.swift */,
 				148245EF28A4E06A0062CEDA /* Assets.xcassets */,
 				148245F128A4E06A0062CEDA /* LaunchScreen.storyboard */,
 				148245F428A4E06A0062CEDA /* Info.plist */,
 			);
 			path = COVID19;
+			sourceTree = "<group>";
+		};
+		14DB062828B4F40300691116 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				148245EA28A4E0670062CEDA /* ViewController.swift */,
+				1450A72828A4F6C600D053A1 /* CityCovidOverview.swift */,
+				1450A72628A4F18D00D053A1 /* CovidDetailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		1C7046058F70843B5DBE4599 /* Frameworks */ = {
